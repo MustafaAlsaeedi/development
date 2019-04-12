@@ -1,122 +1,182 @@
 <!doctype html>
-<html lang="en">
-
+<html lang="en" class="no-js">
 <head>
-  <title>Projects</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+	<meta charset="UTF-8">
+	<link href='https://fonts.googleapis.com/css?family=Playfair+Display:700,900|Fira+Sans:400,400italic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+	<title>PROJECTS</title>
 </head>
-<style>
-  body {
-    background-image: url(web-background.jpg);
-    background-size: 100% 100%;
-    font-family: Arial;
-  }
-  .list-unstyled a {
-    text-decoration: none;
-    color: white;
-  }
-
-  .dots {
-    width: 40px;
-  }
-  .project {
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    width: 100%;
-    align-items: start;
-  }
-
-  .title {
-    color: #FFF;
-    text-align: center;
-    align-items: end;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    font-size: 15px;
-  }
-
-  .list {
-    color: #FFF;
-    text-align: left;
-    font-size: 15px;
-    width: 100%;
-    list-style-position: inside;
-    line-height: 1.6;
-  }
-
-  li {
-    padding-left: 10px;
-  }
-  .text-white a {
-    text-decoration: none;
-    color: white;
-  }
-</style>
-
-<body>
-  <header>
-    <div class="collapse" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white"><a href="index.html">Home</a></h4>
-            <p class="text-muted">Web and software devolpment are my passion. Code gives me the opertonity to spend most of my life creating.</p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Contact</h4>
-            <ul class="list-unstyled" aria-labelledby="navbarDropdownMenuLink">
-              <li><a href="malto:example@yahoo.com">Email me</a></li>
-              <li><a href="https://www.linkedin.com/in/MustafaAlsaeedi">Connect on Linkedin</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="Resume_Alsaeedi.pdf">Resume</a></li>
-            </ul>
-          </div>
+<header>
+  <div class="collapse" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-2 col-md-2 py-2">
+          <h6 class="text-white"><a href="index.html">HOME</a></h6>
+        </div>
+        <div class="col-sm-2 col-md-2 py-2">
+          <h6 class="text-white"><a href="projects.html">PTOJECTS</a></h6>
+        </div>
+        <div class="col-sm-4 col-md-4 py-2">
+          <h6 class="text-white">ABOUT</h6> <br />
+          <p class="text-muted">Web and software devolpment are my passion. Code gives me the opertonity to spend most of my life creating.</p>
+        </div>
+        <div class="col-sm-2 offset-md-2 py-2">
+          <h6 class="text-white">CONTACT</h6>
+          <ul class="list-unstyled" aria-labelledby="navbarDropdownMenuLink">
+            <li><a href="malto:example@yahoo.com">Email me</a></li>
+            <li><a href="https://www.linkedin.com/in/MustafaAlsaeedi">Connect on Linkedin</a></li>
+            <li><a href="img/Resume_Alsaeedi.pdf">Resume</a></li>
+          </ul>
         </div>
       </div>
     </div>
-    <div class="navbar navbar-dark shadow-sm">
-      <div class="container d-flex justify-content-between">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <!-- <span class="navbar-toggler-icon"></span> -->
-          <img class="dots" src="Picture.png" alt="">
-        </button>
-      </div>
+  </div>
+  <div class="navbar navbar-dark shadow-sm">
+    <div class="container d-flex justify-content-between">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <img class="dots" src="img/Picture.png" alt="O O O">
+      </button>
     </div>
-  </header>
-  <div class="container title">
-    <h></h>
-    <h1>Projects</h1>
-    <h></h>
   </div>
-  <div class="container project">
-    <h3>Php App</h3>
-    <h3>Content Managment System</h3>
-    <p> Developed php application that get feedback data from a 3rd party through crul calls, filter the data, and present it in HTML table format.
-      The app meets outlook rendering requirment and works on most of the users' browsers.</p>
-    <p>Initiated Knowledge Managment project that uses SharePoint as Content Managment System.</p>
-  </div>
-  <div class="list">
-    <ul>
-      <h3>Technologies</h3>
-      <h>Develpment</h>
-        <li>php</li>
-        <li>Java</li>
-        <li>JavaScript</li>
-        <li>HTML & CSS</li>
-      <h>Data Analytics</h>
-        <li>MS Excel</li>
-        <li>MS Access</li>
-        <li>Tableau</li>
-    </ul>
-  </div>
-</body>
+</header>
+<body>
+<section class="cd-horizontal-timeline">
+	<div class="timeline">
+		<div class="events-wrapper">
+			<div class="events">
+				<ol>
+					<li><a href="#0" data-date="16/01/2018" class="selected">16 Jan</a></li>
+					<li><a href="#0" data-date="28/02/2018">28 Feb</a></li>
+					<li><a href="#0" data-date="20/04/2018">20 Mar</a></li>
+					<li><a href="#0" data-date="20/05/2018">20 May</a></li>
+					<li><a href="#0" data-date="09/07/2018">09 Jul</a></li>
+					<li><a href="#0" data-date="30/08/2018">30 Aug</a></li>
+					<li><a href="#0" data-date="15/09/2018">15 Sep</a></li>
+					<li><a href="#0" data-date="01/11/2018">01 Nov</a></li>
+					<li><a href="#0" data-date="10/12/2018">10 Dec</a></li>
+					<li><a href="#0" data-date="19/01/2019">29 Jan</a></li>
+					<li><a href="#0" data-date="03/03/2019">3 Mar</a></li>
+				</ol>
 
+				<span class="filling-line" aria-hidden="true"></span>
+			</div> <!-- .events -->
+		</div> <!-- .events-wrapper -->
+
+		<ul class="cd-timeline-navigation">
+			<li><a href="#0" class="prev inactive">Prev</a></li>
+			<li><a href="#0" class="next">Next</a></li>
+		</ul> <!-- .cd-timeline-navigation -->
+	</div> <!-- .timeline -->
+
+	<div class="events-content">
+		<ol>
+			<li class="selected" data-date="16/01/2018">
+				<h3>Wordpress Website</h3>
+				<em>January 16th, 2018</em>
+				<p>Managed refugee career hub website on Wordpress.</p>
+			</li>
+
+			<li data-date="28/02/2018">
+				<h3>Wordpress Website</h3>
+				<em>February 28th, 2018</em>
+				<p>Managed refugee career hub website on Wordpress.</p>
+			</li>
+
+			<li data-date="20/04/2018">
+				<h3>Wordpress Website</h3>
+				<em>March 20th, 2018</em>
+				<p>Managed refugee career hub website on Wordpress.</p>
+			</li>
+
+			<li data-date="20/05/2018">
+				<h3>ATM application in Java</h3>
+				<em>May 20th, 2018</em>
+				<p>Built an ATM applicaion for a project in Java.</p>
+			</li>
+
+			<li data-date="09/07/2018">
+				<h3>Started Portfolio Managment - Co-op at Cox</h3>
+				<em>July 9th, 2018</em>
+				<p>First experiance at a coorporate level.</p>
+			</li>
+
+			<li data-date="30/08/2018">
+				<h3>Knowledge Management Insitives</h3>
+				<em>Auguest 30th, 2018</em>
+				<p>Initiated Knowledge Managment project that uses SharePoint as Content Managment System.</p>
+			</li>
+
+			<li data-date="15/09/2018">
+				<h3>Financial analyizing and reporting</h3>
+				<em>September 15th, 2018</em>
+				<p>Second project as an intern was cost variance analysis of Capx/Opex project expenses
+					 as well as tracking resourse allocations for each project.</p>
+			</li>
+
+			<li data-date="01/11/2018">
+				<h3>Mileston</h3>
+				<em>November 1st, 2019</em>
+				<p>Knowledge management project is completed.</p>
+			</li>
+
+			<li data-date="10/12/2018">
+				<h3>Mileston</h3>
+				<em>December 10th, 2018</em>
+				<p>End of co-op rotation 1.</p>
+			</li>
+
+			<li data-date="19/01/2019">
+				<h3>Co-op 2nd rotation</h3>
+				<em>January 19th, 2019</em>
+				<p>Started the 2ed rotation at CoxCom</p>
+			</li>
+
+			<li data-date="03/03/2019">
+				<h3>PHP</h3>
+				<em>March 3rd, 2019</em>
+				<p>Developed php application that get feedback data from a 3rd party through crul calls, filter the data, and present it in HTML table format.
+						The app meets outlook rendering requirment and works on most of the users' browsers.</p>
+			</li>
+		</ol>
+	</div> <!-- .events-content -->
+</section>
+
+<script src="js/jquery-2.1.4.js"></script>
+<script src="js/jquery.mobile.custom.min.js"></script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+</body>
+<style>
+	body {
+		background:url(img/web-background.jpg) no-repeat;
+  	/* padding-top:100px; */
+  	background-size:cover;
+	}
+	html {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	.list-unstyled a {
+		text-decoration: none;
+		color: white;
+	}
+
+	.dots {
+		width: 40px;
+	}
+
+	.text-white a {
+		color: white;
+	}
+</style>
 </html>
